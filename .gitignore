@@ -1,0 +1,27 @@
+# Datasets
+riva-partb-dataset
+yolov11x-swin
+data/
+datasets/
+*.csv
+*.parquet
+*.h5
+
+#env 
+.lightning_studio
+
+# Models
+models/
+saved_models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Misc
+__pycache__/
+.env
+*.log
+*.txt
